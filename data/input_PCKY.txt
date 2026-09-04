@@ -1,0 +1,37 @@
+S -> AB [0.9] | BC [0.1]
+A -> BA [0.5] | a [0.5]
+B -> CC [0.7] | b [0.3]
+C -> AB [0.6] | a [0.4]
+ab 
+a
+
+S -> AB [0.6] | SS [0.4]
+A -> a [0.9] | b [0.1]
+B -> b [0.8] | a [0.2]
+ab
+ba
+aa
+bb
+aab
+aba
+
+S -> XY [0.7] | YZ [0.3]
+X -> a [1.0]
+Y -> b [0.6] | YX [0.4]
+Z -> c [1.0]
+ab
+abc
+ababc
+a
+b
+c
+
+S -> AB [0.5] | BC [0.5]
+A -> a [0.8] | SA [0.2]
+B -> b [1.0]
+C -> c [1.0]
+ab
+abc
+aab
+aabbc
+aabc

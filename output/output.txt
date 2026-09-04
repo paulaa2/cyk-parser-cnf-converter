@@ -1,0 +1,67 @@
+La gramatica ya esta en CNF
+Resultados
+'ab': True
+'abab': True
+'ababab': True
+'aab': False
+'abb': False
+'ba': False
+
+La gramatica ya esta en CNF
+Resultados
+'ε': True
+'a': False
+'ab': False
+
+Gramatica no esta en CNF
+Gramatica convertida a CNF:
+S -> AC | SS
+A -> a
+C -> b
+
+Resultados
+'ab': True
+'aabb': False
+'aaabbb': False
+'abbb': False
+'aab': False
+'ba': False
+
+Gramatica no esta en CNF
+Gramatica convertida a CNF:
+S -> AB
+A -> a | CA
+B -> b
+C -> a
+
+Resultados
+'a': False
+'ab': True
+'aab': True
+'aaab': True
+'aaa': False
+'aabb': False
+
+La gramatica ya esta en CNF
+Resultados
+'ab': True
+'aabb': True
+'aab': False
+'baa': False
+
+La gramatica ya esta en CNF
+Resultados
+'ab': True
+'aab': True
+'abb': True
+'aaab': True
+'a': False
+'aa': False
+
+La gramatica ya esta en CNF
+Resultados
+'aa': True
+'bb': True
+'abba': True
+'aab': False
+

@@ -1,0 +1,35 @@
+La gramatica ya esta en CNF
+
+Resultados
+'ab': True (Probabilidad: 0.1350)
+'a': False (Probabilidad: 0.0000)
+
+La gramatica ya esta en CNF
+
+Resultados
+'ab': True (Probabilidad: 0.4320)
+'ba': True (Probabilidad: 0.0120)
+'aa': True (Probabilidad: 0.1080)
+'bb': True (Probabilidad: 0.0480)
+'aab': False (Probabilidad: 0.0000)
+'aba': False (Probabilidad: 0.0000)
+
+La gramatica ya esta en CNF
+
+Resultados
+'ab': True (Probabilidad: 0.4200)
+'abc': False (Probabilidad: 0.0000)
+'ababc': False (Probabilidad: 0.0000)
+'a': False (Probabilidad: 0.0000)
+'b': False (Probabilidad: 0.0000)
+'c': False (Probabilidad: 0.0000)
+
+La gramatica ya esta en CNF
+
+Resultados
+'ab': True (Probabilidad: 0.4000)
+'abc': False (Probabilidad: 0.0000)
+'aab': False (Probabilidad: 0.0000)
+'aabbc': False (Probabilidad: 0.0000)
+'aabc': False (Probabilidad: 0.0000)
+

@@ -1,0 +1,68 @@
+S -> AB | SS  
+A -> a  
+B -> b
+ab
+abab
+ababab
+aab
+abb
+ba
+
+S -> ε  
+A -> a  
+B -> b  
+ε 
+a 
+ab
+
+S -> AC | SS  
+A -> a  
+C -> B  
+B -> b
+ab
+aabb
+aaabbb
+abbb
+aab
+ba
+
+S -> AB  
+A -> a | aA  
+B -> b
+a
+ab
+aab
+aaab
+aaa
+aabb
+
+S -> AB | XB
+X -> AS
+A -> a
+B -> b
+ab 
+aabb
+aab
+baa
+
+S -> AB
+A -> a | AA
+B -> b | BB
+ab 
+aab
+abb
+aaab
+a
+aa
+
+S -> AA | BB | XA | YB  
+X -> AS  
+Y -> BS  
+A -> a  
+B -> b
+aa
+bb
+abba
+aab
+
+
